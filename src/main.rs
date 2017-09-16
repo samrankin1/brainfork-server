@@ -40,8 +40,10 @@ struct InterpretationRequest {
 #[post("/request_interpretation", data = "<request>")]
 fn handle_json_request(request: Json<InterpretationRequest>) -> String {
 	let snapshots = Runtime::new(request.instructions.clone(), request.input.as_bytes().to_vec()).run().snapshots;
-	println!("executed {} instructions", snapshots.len());
-	snapshots_to_json(snapshots)
+	print!("executed {} instructions, ", snapshots.len());
+	let json = snapshots_to_json(snapshots);
+	println!("returned {} bytes", json.len());
+	json
 }
 
 fn main() {
