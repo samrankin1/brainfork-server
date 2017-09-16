@@ -1,0 +1,205 @@
+{
+    "executions":13,
+    "output":[
+        3,
+        2,
+        1
+    ],
+    "snapshots":[
+        {
+            "input_pointer":0,
+            "instruction_pointer":0,
+            "is_error":false,
+            "memory":[
+                1
+            ],
+            "memory_pointer":0,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":1,
+            "is_error":false,
+            "memory":[
+                1,
+                0
+            ],
+            "memory_pointer":1,
+            "message":"incremented pointer by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":2,
+            "is_error":false,
+            "memory":[
+                1,
+                1
+            ],
+            "memory_pointer":1,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":3,
+            "is_error":false,
+            "memory":[
+                1,
+                2
+            ],
+            "memory_pointer":1,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":4,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                0
+            ],
+            "memory_pointer":2,
+            "message":"incremented pointer by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":5,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                1
+            ],
+            "memory_pointer":2,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":6,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                2
+            ],
+            "memory_pointer":2,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":7,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":2,
+            "message":"incremented byte by 1",
+            "output":[
+
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":8,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":2,
+            "message":"copied byte from memory to output",
+            "output":[
+                3
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":9,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":1,
+            "message":"decremented pointer by 1",
+            "output":[
+                3
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":10,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":1,
+            "message":"copied byte from memory to output",
+            "output":[
+                3,
+                2
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":11,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":0,
+            "message":"decremented pointer by 1",
+            "output":[
+                3,
+                2
+            ]
+        },
+        {
+            "input_pointer":0,
+            "instruction_pointer":12,
+            "is_error":false,
+            "memory":[
+                1,
+                2,
+                3
+            ],
+            "memory_pointer":0,
+            "message":"copied byte from memory to output",
+            "output":[
+                3,
+                2,
+                1
+            ]
+        }
+    ],
+    "time":38180
+}

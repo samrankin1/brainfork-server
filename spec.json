@@ -1,0 +1,49 @@
+{
+    // number of instructions executed to fufill the request
+    "executions": 13,
+
+    // total engine execution time in nanoseconds
+    "time": 38180,
+
+    // final program output as an array of bytes
+    "output": [
+        3,
+        2,
+        1
+    ],
+
+    // list of interpreter snapshots captured during the program's execution in chronological order
+    "snapshots": [
+        // ...
+
+        {
+            // location of the index pointer (always less than the request's input length)
+            "input_pointer": 4,
+
+            // location of the instruction pointer (always less than the request's instructions length)
+            "instruction_pointer": 7,
+
+            // whether this snapshot represents a fatal interpreter error (if true, see: "message")
+            "is_error": false,
+
+            // copy of memory array as bytes
+            "memory": [
+                8
+            ],
+
+            // location of the memory pointer (always less than "memory" length)
+            "memory_pointer": 0,
+
+             // interpreter message for this snapshot's instruction
+            "message": "incremented byte by 1",
+
+            // copy of output array as bytes
+            "output": [
+                55,
+                67
+            ]
+        },
+
+        // ...
+    ]
+}
