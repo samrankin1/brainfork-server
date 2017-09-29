@@ -10,6 +10,7 @@ lazy_static = "0.2"
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
+# rocket = { version = "0.3", features = ["tls"] }
 rocket = "0.3"
 rocket_codegen = "0.3"
 rocket_contrib = "0.3"
